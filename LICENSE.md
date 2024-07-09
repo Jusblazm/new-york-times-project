@@ -1,0 +1,1 @@
+Vectors and icons by <a href="https://dribbble.com/Madebyelvis?ref=svgrepo.com" target="_blank">Madebyelvis</a> in PD License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>

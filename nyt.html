@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-slate-400/60">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT API</title>
+    <link rel="stylesheet" href="css/nyt.css">
+    <!-- find my favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script defer src="js/nyt.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1 class="flex justify-center font-bold text-3xl mb-4">New York Times API</h1>
+        <div class="flex justify-center">
+            <div>
+            <label for="articleSections" class="w-fit h-fit">Section</label>
+            <select name="articleSections" id="articleSections" class="block h-fit w-fit pl-1 py-[2px] my-auto mr-4 font-semibold rounded-r-md peer" placeholder=" ">
+                <option value="default">Home</option>
+                <option value="arts">Arts</option>
+                <option value="business">Business</option>
+                <option value="dining">Dining</option>
+                <option value="fashion">Fashion</option>
+                <option value="healthmagazine">Health Magazine</option>
+                <option value="nationalopinion">National Opinion</option>
+                <option value="politics">Politics</option>
+                <option value="realestate">Real Estate</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+                <option value="world">World</option>
+            </select>
+        </div>
+            <button type="button" id="refreshArticles" class="my-3 py-2 px-4 bg-gray-200 hover:bg-gray-300 text-black border-black border-2 font-semibold rounded-full">Refresh Articles</button>
+        </div>
+        <div id="articles" class="my-3 w-full flex flex-row flex-wrap justify-center"></div>
+    </main>
+</body>
+
+</html>
